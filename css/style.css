@@ -41,10 +41,12 @@ list-style-type: none;
 .nav-list:focus {
 color: #404bbf
 }
-.nav-list
 .address{
 font-style: normal
 
+}
+.nav-list {
+    font-style: normal;
 }
 .contacts-link {
 text-decoration: none;
