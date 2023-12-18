@@ -1,5 +1,5 @@
-.wraper {
-    font-family: roboto, sans-serif;
+.body {
+    font-family: "Roboto" sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
@@ -65,16 +65,108 @@ color: #404bbf;
 }
 /* Hero section*/
 .main-section{
-color: #FFF;
-text-align: center;
-background-color: #2e2f42;
-font-family: Roboto;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 60px;
-letter-spacing 0.02em;
+    background-color: #2e2f42;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
+.button{
+    background-color: #4D5AE5;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.button:hover,
+.button:focus{
+background-color: #404bbf;
+cursor: pointer;
+}
+
+.resources-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ 
+}
+.features {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ 
+}
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.section3 {
+    background-color: #F4F4FD;
+}
+.team {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
+    background-color:#2E2F42
+}
+.our-team {
+    background-color: #ffffff;
+
+}
+.names {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.features {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
+}
+.portfolio-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.portfolio-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+
+
+
+
+
 .page-title {
     font-size: 56px;
     line-height: 1.07;
@@ -83,58 +175,10 @@ letter-spacing 0.02em;
     color: #ffffff;
 
 }
-.button{
-    font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.04em;
-border-radius: 4px;
-background: #4D5AE5;
-color: #ffffff;
-cursor: pointer;
-border-radius: 4px;
-background:#4D5AE5;
 
-}
 
-.button:hover,
-.button:focus{
-background-color: #404bbf;
-}
-
-.page-title-inside {
- font-weight: 500;
- font-size: 20px;
- line-height: 1.2;
- letter-spacing: 0.02em;
- color: #2E2F42;
-
-}
-.text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.features{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-
-    
-}
-.section3 {
-    background-color: #F4F4FD;
-}
 .resourses,
-.our-team,
-.portfolio {
-    list-style-type: none;
-}
+
 .names {
     color:  #2E2F42;
     font-family: Roboto;
@@ -146,22 +190,7 @@ background-color: #404bbf;
     list-style-type: none;
 }
 
-.team {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-align: center;
-    text-transform: capitalize;
-    background-color: #ffffff;
-}
-.portfolio {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-align: center;
-    text-transform: capitalize;
+
 
 /* Header 2 */
 font-family: Roboto;
@@ -171,24 +200,12 @@ font-weight: 700;
 line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
-}
+
 .our-portfolio {
     list-style-type: none;
 }
-.portfolio-header {
-    color: #2E2F42;
-    font-family:Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.portfolio-list{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
+
 .footer {
     background-color: #2E2F42;
 }
