@@ -136,6 +136,7 @@ cursor: pointer;
 }
 .our-team {
     background-color: #ffffff;
+    list-style-type: none;
 
 }
 .names {
@@ -196,7 +197,7 @@ cursor: pointer;
 
 
 
-.our-portfolio, {
+.our-portfolio {
     list-style-type: none; 
 }
    
