@@ -1,5 +1,5 @@
 .body {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
@@ -112,7 +112,7 @@ cursor: pointer;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
  
 }
 .item-description {
