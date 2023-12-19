@@ -28,7 +28,7 @@
     list-style-type: none;}
 .header-item {
 text-decoration: none;
-color:#2e2f42;
+color: #2e2f42;
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -121,6 +121,7 @@ cursor: pointer;
 }
 .section3 {
     background-color: #f4f4fd;
+    
 }
 .team {
     font-size: 36px;
